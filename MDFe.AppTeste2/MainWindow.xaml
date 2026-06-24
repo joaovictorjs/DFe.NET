@@ -8,6 +8,8 @@
   xmlns:local="clr-namespace:MDFe.AppTeste2"
   xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
   xmlns:views="clr-namespace:MDFe.AppTeste2.Views"
+  xmlns:viewmodels="clr-namespace:MDFe.AppTeste2.ViewModels"
+  d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
   mc:Ignorable="d"
   Title="Zeus - MDFe app testes"
   WindowStartupLocation="CenterScreen"
@@ -24,7 +26,7 @@
 
   <mah:MetroWindow.RightWindowCommands>
     <mah:WindowCommands>
-      <Button>
+      <Button Command="{Binding AbrirConfiguracoesCommand}">
         <Button.ContentTemplate>
           <DataTemplate>
             <StackPanel Orientation="Horizontal">
@@ -39,7 +41,7 @@
 
   <mah:MetroWindow.Flyouts>
     <mah:FlyoutsControl>
-      <views:ConfiguracoesView />
+      <views:ConfiguracoesView IsOpen="{Binding ConfiguracoesAberta, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
     </mah:FlyoutsControl>
   </mah:MetroWindow.Flyouts>
 
