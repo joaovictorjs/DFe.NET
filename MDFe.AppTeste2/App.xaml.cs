@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using DryIoc;
+using MDFe.AppTeste2.ViewModels;
 
 namespace MDFe.AppTeste2
 {
@@ -15,6 +16,7 @@ namespace MDFe.AppTeste2
             var container = new Container();
 
             container.Register<MainWindow>();
+            container.Register<MainWindowViewModel>();
 
             var janelaPrincipal = container.Resolve<MainWindow>();
             janelaPrincipal.Show();
