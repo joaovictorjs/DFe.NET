@@ -1,0 +1,15 @@
+﻿<controls:MetroTabItem
+  xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+  x:Class="MDFe.AppTeste2.Views.ConfiguracoesEmpresaView"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:local="clr-namespace:MDFe.AppTeste2.Views"
+  mc:Ignorable="d"
+  d:DesignHeight="450"
+  d:DesignWidth="800"
+  Header="Empresa"
+>
+  <Grid></Grid>
+</controls:MetroTabItem>
