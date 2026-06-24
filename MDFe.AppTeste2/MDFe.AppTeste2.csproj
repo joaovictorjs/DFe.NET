@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.11" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DFe.Classes\DFe.Classes.csproj" />
     <ProjectReference Include="..\DFe.Utils\DFe.Utils.csproj" />
     <ProjectReference Include="..\MDFe.Classes\MDFe.Classes.csproj" />

@@ -1,14 +1,16 @@
-﻿<Window
+﻿<mah:MetroWindow
   x:Class="MDFe.AppTeste2.MainWindow"
+  xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   xmlns:local="clr-namespace:MDFe.AppTeste2"
   mc:Ignorable="d"
-  Title="MainWindow"
+  Title="Zeus - MDFe app testes"
+  WindowStartupLocation="CenterScreen"
   Height="450"
   Width="800"
 >
   <Grid></Grid>
-</Window>
+</mah:MetroWindow>
