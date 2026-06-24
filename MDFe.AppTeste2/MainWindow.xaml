@@ -6,11 +6,33 @@
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   xmlns:local="clr-namespace:MDFe.AppTeste2"
+  xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
   mc:Ignorable="d"
   Title="Zeus - MDFe app testes"
   WindowStartupLocation="CenterScreen"
   Height="600"
   Width="800"
 >
+  <mah:MetroWindow.LeftWindowCommands>
+    <mah:WindowCommands>
+      <Button>
+        <iconPacks:PackIconLucide Kind="Truck"></iconPacks:PackIconLucide>
+      </Button>
+    </mah:WindowCommands>
+  </mah:MetroWindow.LeftWindowCommands>
+  <mah:MetroWindow.RightWindowCommands>
+    <mah:WindowCommands>
+      <Button>
+        <Button.ContentTemplate>
+          <DataTemplate>
+            <StackPanel Orientation="Horizontal">
+              <iconPacks:PackIconLucide Kind="Settings" />
+              <TextBlock Margin="8,0">Configurações</TextBlock>
+            </StackPanel>
+          </DataTemplate>
+        </Button.ContentTemplate>
+      </Button>
+    </mah:WindowCommands>
+  </mah:MetroWindow.RightWindowCommands>
   <Grid></Grid>
 </mah:MetroWindow>
