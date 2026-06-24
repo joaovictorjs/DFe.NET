@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net10.0-windows</TargetFramework>
@@ -9,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
     <PackageReference Include="DryIoc" Version="5.4.3" />
     <PackageReference Include="MahApps.Metro" Version="2.4.11" />
     <PackageReference Include="MahApps.Metro.IconPacks.Lucide" Version="6.2.1" />
@@ -22,5 +22,4 @@
     <ProjectReference Include="..\MDFe.Utils\MDFe.Utils.csproj" />
     <ProjectReference Include="..\MDFe.Wsdl\MDFe.Wsdl.csproj" />
   </ItemGroup>
-
 </Project>
