@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="DryIoc" Version="5.4.3" />
     <PackageReference Include="MahApps.Metro" Version="2.4.11" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Lucide" Version="6.2.1" />
   </ItemGroup>
 
   <ItemGroup>
