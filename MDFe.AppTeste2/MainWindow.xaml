@@ -7,6 +7,7 @@
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
   xmlns:local="clr-namespace:MDFe.AppTeste2"
   xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+  xmlns:views="clr-namespace:MDFe.AppTeste2.Views"
   mc:Ignorable="d"
   Title="Zeus - MDFe app testes"
   WindowStartupLocation="CenterScreen"
@@ -20,6 +21,7 @@
       </Button>
     </mah:WindowCommands>
   </mah:MetroWindow.LeftWindowCommands>
+
   <mah:MetroWindow.RightWindowCommands>
     <mah:WindowCommands>
       <Button>
@@ -34,5 +36,12 @@
       </Button>
     </mah:WindowCommands>
   </mah:MetroWindow.RightWindowCommands>
+
+  <mah:MetroWindow.Flyouts>
+    <mah:FlyoutsControl>
+      <views:ConfiguracoesView />
+    </mah:FlyoutsControl>
+  </mah:MetroWindow.Flyouts>
+
   <Grid></Grid>
 </mah:MetroWindow>
